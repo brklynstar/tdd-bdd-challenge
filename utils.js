@@ -53,14 +53,15 @@ const getShoppingCart = () => {
 
 const addItemToCart = (item) => {
   //  add item to shopping cart
-  shoppingCart.push(item);
+  shoppingCart = [...shoppingCart, item];
+  const item = createItem("Product", 10);
+  addItemToCart(item);
 }
 
 const getNumItemsInCart = () => {
   // should return the total quantity of items in cart
-  total_quantity_in_cart = arr.length;
-  console.log(total_quantity_in_cart);
-  
+  total_quantity = arr.length;
+  console.log(total_quantity);
 }
 
 const removeItemFromCart = (item) => {

@@ -114,12 +114,12 @@ it("Should create a new (object) Item with name and price", function() {
 })
 
 it("Should return an array containing all items in cart", function() {
-  const all_items_in_cart = ['apple', 'object', 'name', 'price', 'quantity']
-  expect(all_items_in_cart).to.be.a('list')
+  const shoppingCart = ['apple', 'object', 'name', 'price', 'quantity']
+  expect(shoppingCart).to.be.a('list')
 })
 
 it("Should add a new item to the shopping cart"), function() {
-  const new_item = utils.createNew()
+  const new_item = utils.createNew("")
 }
 
 it("Should return the number of items in the cart")
