@@ -71,7 +71,10 @@ const removeItemFromCart = (item) => {
 }
 
 module.exports = {
-  sayHello, area, perimeter, circleArea,
+  sayHello, 
+  area, 
+  perimeter, 
+  circleArea,
   clearCart, createItem, getShoppingCart, addItemToCart,
   getNumItemsInCart, removeItemFromCart
 }
